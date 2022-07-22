@@ -752,6 +752,24 @@
       "settings": {
         "foreground": "#EEFFFF"
       }
+    },
+    {
+      "name": "Template Literals",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "#ec4899"
+      }
+    },
+    // JSX
+    {
+      "name": "Support Class Component",
+      "scope": ["support.class.component"],
+      "settings": {
+        "foreground": "#fb923c"
+      }
     }
   ]
 }
