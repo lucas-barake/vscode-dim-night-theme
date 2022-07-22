@@ -146,7 +146,9 @@
     "peekViewEditor.background": "#1f242888",
     "peekViewResult.background": "#1f2428",
     "settings.headerForeground": "#e1e4e8",
-    "settings.modifiedItemIndicator": "#7c3aed"
+    "settings.modifiedItemIndicator": "#7c3aed",
+    "editorInlayHint.background": "#1d2024",
+    "editorInlayHint.foreground": "#7c8899"
   },
   "tokenColors": [
     {
