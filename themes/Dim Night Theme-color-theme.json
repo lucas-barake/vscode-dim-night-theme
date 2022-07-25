@@ -1,5 +1,6 @@
 {
   "name": "Dim Night Theme",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.background": "#24292e",
     "activityBarBadge.background": "#7c3aed",
@@ -307,7 +308,7 @@
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#f43f5e"
+        "foreground": "#f472b6"
       }
     },
     {
