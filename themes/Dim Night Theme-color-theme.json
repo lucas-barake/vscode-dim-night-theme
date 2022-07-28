@@ -164,7 +164,14 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#60A5FA"
+        "foreground": "#e5e5e5"
+      }
+    },
+    {
+      "name": "Block Level Variables",
+      "scope": ["meta.block variable.other"],
+      "settings": {
+        "foreground": "#e5e5e5"
       }
     },
     {
@@ -185,14 +192,35 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.modifier"],
       "settings": {
-        "foreground": "#c084fc"
+        "foreground": "#a390ff"
       }
     },
     {
       "name": "Storage Type",
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "#c084fc"
+        "foreground": "#a390ff"
+      }
+    },
+    {
+      "name": "Keyword Control Flow",
+      "scope": ["keyword.control.flow"],
+      "settings": {
+        "foreground": "#a390ff"
+      }
+    },
+    {
+      "name": "Storage Type Class",
+      "scope": ["storage.type.class"],
+      "settings": {
+        "foreground": "#a390ff"
+      }
+    },
+    {
+      "name": "Keyword Control Import/From",
+      "scope": ["keyword.control.import", "keyword.control.from"],
+      "settings": {
+        "foreground": "#a390ff"
       }
     },
     {
@@ -210,31 +238,10 @@
       }
     },
     {
-      "name": "Storage Type Class",
-      "scope": ["storage.type.class"],
-      "settings": {
-        "foreground": "#C084FC"
-      }
-    },
-    {
-      "name": "Keyword Control Import/From",
-      "scope": ["keyword.control.import", "keyword.control.from"],
-      "settings": {
-        "foreground": "#C084FC"
-      }
-    },
-    {
       "name": "Keyword Control Type",
       "scope": ["keyword.control.type"],
       "settings": {
         "foreground": "#67E8F9"
-      }
-    },
-    {
-      "name": "Keyword Control Flow",
-      "scope": ["keyword.control.flow"],
-      "settings": {
-        "foreground": "#C084FC"
       }
     },
     {
@@ -278,7 +285,7 @@
       }
     },
     {
-      "name": "HTML Tag",
+      "name": "HTML Tags, JSX Tag",
       "scope": ["meta.tag"],
       "settings": {
         "foreground": "#BCBCBC"
@@ -295,13 +302,6 @@
       ],
       "settings": {
         "foreground": "#FB923C"
-      }
-    },
-    {
-      "name": "Block Level Variables",
-      "scope": ["meta.block variable.other"],
-      "settings": {
-        "foreground": "#60A5FA"
       }
     },
     {
@@ -376,6 +376,13 @@
       "scope": ["support.type"],
       "settings": {
         "foreground": "#F8C86B"
+      }
+    },
+    {
+      "name": "Property",
+      "scope": ["variable.other.property", "variable.other.object.property"],
+      "settings": {
+        "foreground": "#38bdf8"
       }
     },
     {
@@ -766,7 +773,6 @@
         "foreground": "#ec4899"
       }
     },
-    // JSX
     {
       "name": "Support Class Component",
       "scope": ["support.class.component"],
