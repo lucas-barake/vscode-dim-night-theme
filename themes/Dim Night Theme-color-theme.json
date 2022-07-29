@@ -285,6 +285,87 @@
       }
     },
     {
+      "name": "CSS ID",
+      "scope": ["entity.other.attribute-name.id"],
+      "settings": {
+        "foreground": "#f472b6"
+      }
+    },
+    {
+      "name": "CSS Property",
+      "scope": ["support.type.property-name.css"],
+      "settings": {
+        "foreground": "#d4d4d4"
+      }
+    },
+    {
+      "name": "CSS Numerics",
+      "scope": ["constant.numeric.css"],
+      "settings": {
+        "foreground": "#FBBF24"
+      }
+    },
+    {
+      "name": "CSS Color",
+      "scope": [
+        "support.constant.color.w3c-standard-color-name.css",
+        "constant.other.color.rgb-value.hex.css"
+      ],
+      "settings": {
+        "foreground": "#4ade80"
+      }
+    },
+    {
+      "name": "CSS Units",
+      "scope": [
+        "keyword.other.unit.percentage.css",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.in.css",
+        "keyword.other.unit.pt.css",
+        "keyword.other.unit.pc.css",
+        "keyword.other.unit.ex.css",
+        "keyword.other.unit.ch.css",
+        "keyword.other.unit.vw.css",
+        "keyword.other.unit.vh.css",
+        "keyword.other.unit.vmin.css",
+        "keyword.other.unit.vmax.css"
+      ],
+      "settings": {
+        "foreground": "#a390ff"
+      }
+    },
+    {
+      "name": "CSS Properties",
+      "scope": ["support.constant.property-value.css"],
+      "settings": {
+        "foreground": "#22d3ee"
+      }
+    },
+    {
+      "name": "SCSS Variable",
+      "scope": ["variable.scss"],
+      "settings": {
+        "foreground": "#FB923C"
+      }
+    },
+    {
+      "name": "Sub-methods",
+      "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
+      "settings": {
+        "foreground": "#f43f5e"
+      }
+    },
+    {
+      "name": "Language methods",
+      "scope": ["variable.language"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#f43f5e"
+      }
+    },
+    {
       "name": "HTML Tags, JSX Tag",
       "scope": ["meta.tag"],
       "settings": {
@@ -397,21 +478,6 @@
       ],
       "settings": {
         "foreground": "#B2CCD6"
-      }
-    },
-    {
-      "name": "Sub-methods",
-      "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
-      "settings": {
-        "foreground": "#f43f5e"
-      }
-    },
-    {
-      "name": "Language methods",
-      "scope": ["variable.language"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#f43f5e"
       }
     },
     {
