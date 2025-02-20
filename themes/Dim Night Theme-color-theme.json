@@ -362,7 +362,7 @@
       "scope": ["variable.language"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#f43f5e"
+        "foreground": "#ff6969"
       }
     },
     {
@@ -382,7 +382,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#FB923C"
+        "foreground": "#ff9b54"
       }
     },
     {
@@ -449,7 +449,7 @@
       "name": "Support, Types",
       "scope": ["entity.name.type.class"],
       "settings": {
-        "foreground": "#fbbf24"
+        "foreground": "#FFCB6B"
       }
     },
     {
@@ -845,6 +845,16 @@
       "settings": {
         "foreground": "#fb923c"
       }
+    },
+    {
+      "name": "Type Parameters",
+      "scope": ["entity.name.type.parameter"],
+      "settings": {
+        "foreground": "#FF77BD"
+      }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "namespace": "#FF77BD"
+  }
 }
