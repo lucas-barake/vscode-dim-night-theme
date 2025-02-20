@@ -164,14 +164,14 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#e5e5e5"
+        "foreground": "#ffffff"
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#e5e5e5"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -389,7 +389,7 @@
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#f472b6"
+        "foreground": "#f59cff"
       }
     },
     {
@@ -643,7 +643,7 @@
     {
       "name": "JSON Key - Level 6",
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#f43f5e"
@@ -852,9 +852,29 @@
       "settings": {
         "foreground": "#FF77BD"
       }
+    },
+    {
+      "name": "Import/Export Aliases and Usage",
+      "scope": [
+        "variable.other.readwrite.alias.tsx",
+        "variable.other.readwrite.alias.ts",
+        "variable.other.readwrite.alias.js",
+        "variable.other.readwrite.alias.jsx",
+        "variable.other.readwrite.tsx",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.jsx",
+        "variable.other.object.tsx",
+        "variable.other.object.ts",
+        "variable.other.object.js",
+        "variable.other.object.jsx"
+      ],
+      "settings": {
+        "foreground": "#c6c6c6"
+      }
     }
   ],
   "semanticTokenColors": {
-    "namespace": "#FF77BD"
+    "namespace": "#c6c6c6"
   }
 }
