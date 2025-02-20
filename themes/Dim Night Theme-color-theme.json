@@ -870,11 +870,11 @@
         "variable.other.object.jsx"
       ],
       "settings": {
-        "foreground": "#c6c6c6"
+        "foreground": "#dbdbdb"
       }
     }
   ],
   "semanticTokenColors": {
-    "namespace": "#c6c6c6"
+    "namespace": "#dbdbdb"
   }
 }
