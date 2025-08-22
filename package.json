@@ -2,7 +2,7 @@
   "name": "dim-night",
   "displayName": "Dim Night",
   "description": "Dim Night Theme",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "publisher": "lucas-barake",
   "repository": {
     "type": "git",
@@ -26,11 +26,6 @@
         "label": "Dim Night Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Dim Night Theme-color-theme.json"
-      },
-      {
-        "label": "Dim Night Theme Darker",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dim Night Theme Darker-color-theme.json"
       }
     ]
   }
