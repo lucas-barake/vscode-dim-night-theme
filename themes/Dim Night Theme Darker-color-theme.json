@@ -192,35 +192,35 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.modifier"],
       "settings": {
-        "foreground": "#AC9CFF"
+        "foreground": "#B3A6FF"
       }
     },
     {
       "name": "Storage Type",
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "#AC9CFF"
+        "foreground": "#B3A6FF"
       }
     },
     {
       "name": "Keyword Control Flow",
       "scope": ["keyword.control.flow"],
       "settings": {
-        "foreground": "#AC9CFF"
+        "foreground": "#B3A6FF"
       }
     },
     {
       "name": "Storage Type Class",
       "scope": ["storage.type.class"],
       "settings": {
-        "foreground": "#AC9CFF"
+        "foreground": "#B3A6FF"
       }
     },
     {
       "name": "Keyword Control Import/From",
       "scope": ["keyword.control.import", "keyword.control.from"],
       "settings": {
-        "foreground": "#AC9CFF"
+        "foreground": "#B3A6FF"
       }
     },
     {
@@ -274,14 +274,14 @@
         "punctuation.definition.string.end"
       ],
       "settings": {
-        "foreground": "#c8e997"
+        "foreground": "#C8E997"
       }
     },
     {
       "name": "Tag",
       "scope": ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter"],
       "settings": {
-        "foreground": "#fb6c6c"
+        "foreground": "#fe6767"
       }
     },
     {
@@ -302,7 +302,7 @@
       "name": "CSS Numerics",
       "scope": ["constant.numeric.css"],
       "settings": {
-        "foreground": "#FBBF24"
+        "foreground": "#f8ca73"
       }
     },
     {
@@ -333,7 +333,7 @@
         "keyword.other.unit.vmax.css"
       ],
       "settings": {
-        "foreground": "#AC9CFF"
+        "foreground": "#B3A6FF"
       }
     },
     {
@@ -354,7 +354,7 @@
       "name": "Sub-methods",
       "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
       "settings": {
-        "foreground": "#fb6c6c"
+        "foreground": "#fe6767"
       }
     },
     {
@@ -362,7 +362,7 @@
       "scope": ["variable.language"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#fb6c6c"
+        "foreground": "#fe6767"
       }
     },
     {
@@ -404,7 +404,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#FBBF24"
+        "foreground": "#f8ca73"
       }
     },
     {
@@ -426,7 +426,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#c8e997"
+        "foreground": "#C8E997"
       }
     },
     {
@@ -509,7 +509,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#FDDD6C"
+        "foreground": "#f8ca73"
       }
     },
     {
@@ -541,7 +541,7 @@
       "name": "Inserted",
       "scope": ["markup.inserted"],
       "settings": {
-        "foreground": "#c8e997"
+        "foreground": "#C8E997"
       }
     },
     {
@@ -656,7 +656,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#fb6c6c"
+        "foreground": "#fe6767"
       }
     },
     {
@@ -716,7 +716,7 @@
       "scope": ["markup.italic"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#fb6c6c"
+        "foreground": "#fe6767"
       }
     },
     {
@@ -724,7 +724,7 @@
       "scope": ["markup.bold", "markup.bold string"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#fb6c6c"
+        "foreground": "#fe6767"
       }
     },
     {
@@ -739,7 +739,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#fb6c6c"
+        "foreground": "#fe6767"
       }
     },
     {
