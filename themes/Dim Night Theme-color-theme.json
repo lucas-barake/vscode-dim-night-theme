@@ -148,8 +148,8 @@
     "peekViewEditor.matchHighlightBackground": "#ffd33d33",
     "peekViewResult.matchHighlightBackground": "#ffd33d33",
     "settings.headerForeground": "#e1e4e8",
-    "editorInlayHint.background": "#1d2024",
-    "editorInlayHint.foreground": "#7c8899"
+    "editorInlayHint.background": "#101010",
+    "editorInlayHint.foreground": "#949494"
   },
   "tokenColors": [
     {
@@ -157,7 +157,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#727b86"
+        "foreground": "#60e67d"
       }
     },
     {
@@ -192,35 +192,35 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.modifier"],
       "settings": {
-        "foreground": "#B3A6FF"
+        "foreground": "#BBB0FF"
       }
     },
     {
       "name": "Storage Type",
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "#B3A6FF"
+        "foreground": "#BBB0FF"
       }
     },
     {
       "name": "Keyword Control Flow",
       "scope": ["keyword.control.flow"],
       "settings": {
-        "foreground": "#B3A6FF"
+        "foreground": "#BBB0FF"
       }
     },
     {
       "name": "Storage Type Class",
       "scope": ["storage.type.class"],
       "settings": {
-        "foreground": "#B3A6FF"
+        "foreground": "#BBB0FF"
       }
     },
     {
       "name": "Keyword Control Import/From",
       "scope": ["keyword.control.import", "keyword.control.from"],
       "settings": {
-        "foreground": "#B3A6FF"
+        "foreground": "#BBB0FF"
       }
     },
     {
@@ -333,7 +333,7 @@
         "keyword.other.unit.vmax.css"
       ],
       "settings": {
-        "foreground": "#B3A6FF"
+        "foreground": "#BBB0FF"
       }
     },
     {
@@ -347,7 +347,7 @@
       "name": "SCSS Variable",
       "scope": ["variable.scss"],
       "settings": {
-        "foreground": "#FC9C4E"
+        "foreground": "#FFA86B"
       }
     },
     {
@@ -382,7 +382,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#FFA361"
+        "foreground": "#FFA86B"
       }
     },
     {
@@ -411,7 +411,7 @@
       "name": "Function Argument",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#2DD4BF"
+        "foreground": "#55D9C9"
       }
     },
     {
@@ -473,7 +473,7 @@
         "meta.object.member.jsx"
       ],
       "settings": {
-        "foreground": "#4BBFF8"
+        "foreground": "#5AC6FA"
       }
     },
     {
@@ -853,7 +853,7 @@
       "name": "Support Class Component",
       "scope": ["support.class.component"],
       "settings": {
-        "foreground": "#FC9C4E"
+        "foreground": "#FFA86B"
       }
     },
     {
@@ -886,8 +886,8 @@
   ],
   "semanticTokenColors": {
     "namespace": "#dbdbdb",
-    "property": "#4BBFF8",
-    "property.readonly": "#4BBFF8",
-    "variable.property": "#4BBFF8"
+    "property": "#5AC6FA",
+    "property.readonly": "#5AC6FA",
+    "variable.property": "#5AC6FA",
   }
 } 
