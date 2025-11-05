@@ -135,6 +135,7 @@
     "panelTitle.activeForeground": "#e1e4e8",
     "panelTitle.inactiveForeground": "#959da5",
     "panelInput.border": "#2f363d",
+    "terminal.background": "#060606",
     "terminal.foreground": "#d1d5da",
     "gitDecoration.addedResourceForeground": "#34d058",
     "gitDecoration.modifiedResourceForeground": "#82BCFF",
